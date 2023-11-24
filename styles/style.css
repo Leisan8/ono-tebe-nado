@@ -21,7 +21,6 @@
     display: inline-flex;
     list-style: circle;
     column-gap: 23px;
-    align-self: center;
 }
 
 .header-menu-item:first-of-type {
@@ -35,4 +34,10 @@
 .header-contacts-list {
     list-style: none;
 }
+
+.header-logo {
+    max-width: 7%;
+    justify-self: center;
+}
+
 
