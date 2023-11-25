@@ -105,6 +105,22 @@
     text-transform: uppercase;
 }
 
+.bet-button {
+    padding: 12px 32px;
+    border: 1px solid #FFF; 
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
 .lots {
     position: relative;
     margin: 180px 50px 0px 50px;
@@ -122,13 +138,10 @@
 
 .lots__card-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     list-style: none;
     gap: 25px;
 
-}
-
-.lots__card-list-item {
 }
 
 .card-link {
@@ -179,10 +192,12 @@
 }
 
 .lots__look-more-link {
+    display: inline-block;
+    margin: 30px 0 0 40px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 }
-
 
