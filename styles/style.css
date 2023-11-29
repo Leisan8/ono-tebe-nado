@@ -37,7 +37,7 @@
     text-decoration: none;
 }
 
-.header-contacts {
+.address {
     display: flex;
     align-items: center;
     justify-self: right;
@@ -46,7 +46,7 @@
     font-style: normal;
 }
 
-.header-contacts-list {
+.address-list {
     list-style: none;
 }
 
@@ -81,7 +81,6 @@
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%; /* 100px */
     letter-spacing: 30px;
     text-transform: uppercase;
     line-height: 125px;
@@ -254,4 +253,50 @@
 .about__logo-image {
     width: 148px;
     height: 114px;
+}
+
+.footer {
+    display: flex;
+    margin: 180px 50px 90px 50px;
+    justify-content: space-between;
+    text-underline-offset: 25%;
+}
+
+.footer__social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    display: flex;
+}
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    column-gap: 32px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.footer__menu-item:first-of-type {
+    list-style-type: none;
+}
+
+.footer__menu-active .footer__menu-link {
+    text-decoration: none;
+}
+
+.footer__social-list {
+    list-style: none;
+    display: flex;
+    column-gap: 48px;
+}
+
+.footer__social-link{
+    display: block;
+    width: 48px;
+    height: 48px;
 }
