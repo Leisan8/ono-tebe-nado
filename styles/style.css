@@ -1,13 +1,19 @@
+/* .content-section {
+    max-width: 100%;
+    margin: auto;
+    padding: 0%;
+} */
+
 .header {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
-    padding: 92px 50px;
+    margin: 92px 49px 92px 51px;
     color: #000;
-    font-size: 18px;
+    text-underline-offset: 25%;
     font-style: normal;
     font-weight: 400;
-    line-height: 135%; /* 135% */
+    line-height: normal;
 }
 
 .header-menu {
@@ -19,7 +25,8 @@
 .header-menu-list {
     display: inline-flex;
     list-style: circle;
-    column-gap: 23px;
+    column-gap: 32px;
+    font-size: 18px;
 }
 
 .header-menu-item:first-of-type {
@@ -31,7 +38,12 @@
 }
 
 .header-contacts {
+    display: flex;
+    align-items: center;
     justify-self: right;
+    font-size: 18px;
+    line-height: 24.3px; /* 135% */ 
+    font-style: normal;
 }
 
 .header-contacts-list {
