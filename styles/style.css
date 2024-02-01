@@ -34,7 +34,6 @@
 .address {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-self: right;
     font-size: 18px;
     line-height: 24.3px;
@@ -55,7 +54,6 @@
     background-image: url("../images/cover.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    z-index: -2;
     padding: 0 0 1px 0;
 }
 
@@ -68,7 +66,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
 }
 
 .cover-title {
@@ -105,9 +102,10 @@
 }
 
 .cover-footer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 57px;
+    display: grid;
+    grid-template-columns: 2fr auto;
+    margin-bottom: 64px;
+    margin-top: -19px;
     color: #FFF;
     font-size: 22px;
     font-style: normal;
@@ -119,7 +117,15 @@
     z-index: 1;
 }
 
+.cover-footer-line {
+    text-align: center;
+    justify-self: center; 
+    margin-left: 342px;
+    margin-top: 14px;
+}
+
 .bet-button {
+    justify-self: end;
     padding: 12px 32px;
     border: 1px solid #FFF;
     background-color: transparent;
@@ -130,9 +136,8 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    position: absolute;
-    bottom: 54px;
-    right: 50px;
+    margin-bottom: -13px;
+    margin-right: 50px;
 }
 
 .lots {
